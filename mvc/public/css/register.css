@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+form{
+    background-color: #eee;
+    margin: 0 auto;
+    width: 400px;
+    padding: 20px;
+}
+
+input[type=text], input[type=password]{
+    padding: 10px;
+    font-size: 18px;
+    outline: none;
+    width: 370px;
+}
+
+input[type=submit]{
+    background-color: #1E69E3;
+    color: white;
+    padding: 8px;
+    border: none;
+    width: 200px;
+}
+
+.center{
+    text-align: center;
+}
+
+.error  {
+    background-color: rgb(248, 34, 10);
+    font-size: 12px;
+    padding: 10px;
+}
+.correcto{
+    background-color: #A0DEA7;
+    font-size: 12px;
+    padding: 10px;
+}
